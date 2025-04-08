@@ -35,11 +35,11 @@ npm run start
 ### Windows Setup for script
 
 - To fix the issue with the NODE_ENV command on Windows, follow these steps:
-1. Install cross-env: Run the following command to install the cross-env package:
+1. **Install cross-env: Run the following command to install the cross-env package:**
 ```
 npm install cross-env --save-dev
 ```
-2. Update the start and dev scripts in package.json:
+2. **Update the start and dev scripts in package.json:**
 ```
 "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
