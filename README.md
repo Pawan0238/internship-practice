@@ -39,7 +39,7 @@ npm run start
 ```
 npm install cross-env --save-dev
 ```
-2. Update the start and dev scripts in package.json: Modify your package.json to use cross-env for setting environment variables. Update the scripts section as follows:
+2. Update the start and dev scripts in package.json:
 ```
 "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
